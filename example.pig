@@ -1,9 +1,3 @@
----local wd 
-
---- ssh in 
------ssh hadoop@54.152.154.129 -i Coursera02282016.pem -o "ServerAliveInterval 10" 
----tunnel in 
------sudo ssh -L 9100:localhost:9100 -L 9101:localhost:9101  -i Coursera02282016.pem hadoop@54.152.154.129 
 
 register s3n://uw-cse-344-oregon.aws.amazon.com/myudfs.jar
 

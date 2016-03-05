@@ -1,4 +1,3 @@
-----ssh -i Coursera02282016.pem -ND 8157 hadoop@52.23.242.169
 register s3n://uw-cse-344-oregon.aws.amazon.com/myudfs.jar
 -- load the test file into Pig
 raw = LOAD 's3n://uw-cse-344-oregon.aws.amazon.com/cse344-test-file' USING TextLoader as (line:chararray);
